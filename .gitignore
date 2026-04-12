@@ -1,38 +1,10 @@
-﻿# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
 .venv/
-venv/
-ENV/
-env/
-*.egg-info/
-.egg
-
-# IDE
-.vscode/
-.idea/
-*.swp
-
-# OS
-.DS_Store
-Thumbs.db
-
-# 大容量ファイル（生成データ）
-*.npy
-*.npz
-*.mp4
-*.raw
-*.h5
-*.hdf5
-*.png
-*.jpg
-
-# データディレクトリ
-data/
-
-# その他
-*.log
+__pycache__/
 .ipynb_checkpoints/
+.vscode/
+
+*.raw
+*.hdf5
+*.avi
+*.mp4
+*.swp
