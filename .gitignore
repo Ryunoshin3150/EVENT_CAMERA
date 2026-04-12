@@ -26,8 +26,12 @@ Thumbs.db
 *.mp4
 *.raw
 *.h5
+*.hdf5
 *.png
 *.jpg
+
+# データディレクトリ
+data/
 
 # その他
 *.log
