@@ -241,3 +241,12 @@ $$cy[b] = \frac{\sum_{y,x} |\Delta V[b, y, x]| \cdot y}{\sum_{y,x} |\Delta V[b, 
 ---
 
 **最終更新：2026年4月12日**
+
+```bash
+#仮想環境への入り直し
+source ~/naist_event/.venv/bin/activate
+#Metavision SDKのパス通し（多分やらなくていい）
+echo "/usr/lib/python3/dist-packages" > "$(python -c 'import site; print(site.getsitepackages()[0])')/metavision.pth"
+#分析プログラムの実行
+python ./method/main.py -f spider -d cpu -srg
+```
