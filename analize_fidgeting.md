@@ -162,3 +162,10 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+# 実行するとき
+```bash
+python fidget_live_gesture.py --save_to ~/naist_event/data --list
+python fidget_live_gesture.py --save_to ~/naist_event/data --class "Hand clapping" --index 0 --band 2 6
+```
